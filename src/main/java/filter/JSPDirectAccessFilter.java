@@ -99,7 +99,7 @@ public class JSPDirectAccessFilter implements Filter {
         HttpSession session=req.getSession();
         String url=req.getServletPath();
         if(url.endsWith(".jsp")&&!url.contains("confirm.jsp")&&!url.contains("404.jsp")&&!url.contains("vnpay_return.jsp")){
-            res.sendRedirect("http://localhost:9999/shop/home");
+            res.sendRedirect("http://localhost:8080/shop/home");
         }
         Throwable problem = null;
         try {
