@@ -17,7 +17,7 @@ public class TestUserProflie {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\viqua\\.cache\\selenium\\chromedriver\\win64\\126.0.6478.126\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\.cache\\selenium\\chromedriver\\win64\\126.0.6478.126\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.manage().window().maximize();
